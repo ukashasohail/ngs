@@ -4,3 +4,7 @@ process.stdin.on('readable', () => {
     process.stdout.write(chunk);
   }
 });
+
+// or
+
+process.stdin.pipe(process.stdout);

@@ -3,4 +3,5 @@ const timerId = setTimeout(
   0
 );
 
+// console.log(timerId);
 clearTimeout(timerId);
