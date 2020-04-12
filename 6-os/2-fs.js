@@ -1,10 +1,10 @@
 /*
 
   readFile(path[, options])
-  createReadStream(path[, options])
+  createReadStream(path[, options])  //preferred
 
   writeFile(file, data[, options])
-  createWriteStream(path[, options])
+  createWriteStream(path[, options]) //preferred
 
   appendFile(path, data[, options])
   copyFile(src, dest[, flags])
